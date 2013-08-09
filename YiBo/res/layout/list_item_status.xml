@@ -71,14 +71,14 @@
         	android:layout_height="wrap_content"
         	android:orientation="vertical"
         	android:paddingTop="2sp">
-        	<net.dev123.yibo.widget.RichTextView android:id="@+id/tvText"
+        	<com.shejiaomao.widget.RichTextView android:id="@+id/tvText"
         	    android:hint="@string/label_loading"
         		android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
         		android:layout_weight="1"
         		android:linksClickable="false"
         		style="@style/list_status_text">
-        	</net.dev123.yibo.widget.RichTextView>
+        	</com.shejiaomao.widget.RichTextView>
 
 			<LinearLayout
 			    android:id="@+id/llThumbnail"
@@ -114,14 +114,14 @@
         	    android:paddingBottom="6sp"
         		android:visibility="gone"
         		android:orientation="vertical">
-        	    <net.dev123.yibo.widget.RichTextView android:id="@+id/tvRetweetText"
+        	    <com.shejiaomao.widget.RichTextView android:id="@+id/tvRetweetText"
         	        android:hint="@string/label_loading"
         		    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:linksClickable="false"
                     android:textColorLink="@color/selector_text_link"
         		    style="@style/list_status_retweet">
-        	    </net.dev123.yibo.widget.RichTextView>
+        	    </com.shejiaomao.widget.RichTextView>
 	            <LinearLayout
 				    android:id="@+id/llRetweetThumbnail"
 				    android:layout_width="fill_parent"

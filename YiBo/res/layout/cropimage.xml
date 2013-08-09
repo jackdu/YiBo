@@ -8,7 +8,7 @@
         android:layout_height="fill_parent"
         android:orientation="horizontal">
 
-        <view class="net.dev123.yibo.widget.CropImageView" 
+        <view class="com.shejiaomao.widget.CropImageView" 
             android:id="@+id/image"
             android:background="#55000000"
             android:layout_width="fill_parent"

@@ -6,13 +6,15 @@
 	android:gravity="center"
 	android:background="@drawable/selector_bg_gap">
 	
-	<LinearLayout android:id="@+id/llLoadingState"
+	<LinearLayout 
+	    android:id="@+id/llLoadingState"
 	    android:layout_width="fill_parent" 
-	    android:layout_height="48sp"
+	    android:layout_height="48dp"
 	    android:orientation="horizontal"
 	    android:gravity="center"
 	    android:visibility="gone">	
-	    <ProgressBar android:layout_width="wrap_content"
+	    <ProgressBar 
+	        android:layout_width="wrap_content"
 		    android:layout_height="wrap_content" 
 		    style="?android:attr/progressBarStyleInverse">
 	    </ProgressBar>
@@ -21,8 +23,8 @@
 	        android:layout_width="wrap_content"
 		    android:layout_height="wrap_content" 
 		    android:text="@string/label_loading"
-		    android:layout_marginLeft="4sp"
-		    android:textAppearance="@style/content_text">
+		    android:layout_marginLeft="4dp"
+		    android:textAppearance="@style/content">
 	    </TextView>	
     </LinearLayout>
    

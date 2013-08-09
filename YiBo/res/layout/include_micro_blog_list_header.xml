@@ -13,7 +13,7 @@
   	    android:paddingRight="10sp"
   	    android:paddingBottom="6sp"
   	    android:orientation="vertical">
-	    <net.dev123.yibo.widget.RichTextView 
+	    <com.shejiaomao.widget.RichTextView 
 	        android:id="@+id/tvText"
 		    android:hint="@string/label_loading"
 		    android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
 		    android:linksClickable="true"
 		    android:textColorLink="@color/selector_text_link"
 		    style="@style/status_text">
-	    </net.dev123.yibo.widget.RichTextView>
+	    </com.shejiaomao.widget.RichTextView>
 
 		<LinearLayout android:id="@+id/llThumbnail"
 		    android:layout_width="fill_parent"
@@ -70,7 +70,7 @@
   	    	android:paddingRight="10sp"
   	    	android:background="@drawable/bg_retweet_frame"
   	    	android:visibility="gone">
-  	    	<net.dev123.yibo.widget.RichTextView 
+  	    	<com.shejiaomao.widget.RichTextView 
   	    	    android:id="@+id/tvRetweetText"
   	    	    android:layout_width="fill_parent"
   	    		android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
   	    		android:layout_weight="1"
   	    		android:linksClickable="true"
   	    		style="@style/status_retweet_text">
-  	    	</net.dev123.yibo.widget.RichTextView>
+  	    	</com.shejiaomao.widget.RichTextView>
 
 			<LinearLayout android:id="@+id/llRetweetThumbnail"
 			    android:layout_width="fill_parent"

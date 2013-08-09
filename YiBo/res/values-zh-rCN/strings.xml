@@ -8,14 +8,14 @@
 	<!-- title_: 标题类，用于界面的头部的标题、对话框标题，包括每个界面的醒目标题 -->
 
 	<!-- App string -->
-	<string name="app_name">YiBo微博</string>
-	<string name="app_image_viewer">YiBo图片浏览器(多功能)</string>
-	<string name="copyright">Copyright © 2010–2011 敏升工作室  版权所有</string>
+	<string name="app_name">MaoBo微博</string>
+	<string name="app_image_viewer">MaoBo图片浏览器</string>
+	<string name="copyright">Copyright © 2011–2012 MaoBo studio 支持</string>
 
 	<string name="title_home_page">%1$s\@%1$s</string>
     <string name="title_accounts">帐号管理</string>
 	<string name="title_add_account">添加帐号</string>
-	<string name="title_passport">YiBo通行证</string>
+	<string name="title_passport">通行证</string>
 	<string name="title_my_home">我的首页</string>
 	<string name="title_metions">\@提到我的</string>
 	<string name="title_direct_messages">私信</string>
@@ -73,7 +73,7 @@
 	<string name="label_app_hot_topic">热门话题</string>
 	<string name="label_app_public_timeline">随便看看</string>
 	<string name="label_app_jokes">冷笑话</string>
-	<string name="label_app_cartoon">爱动漫</string>
+	<string name="label_app_zuizipai">最自拍</string>
 	<string name="label_app_exchange">精品应用</string>
     <string name="title_dialog_about">关于</string>
     <string name="msg_refresh_direct_message">收到%1$d条新私信, %2$d条发出的私信，双击标题栏，回到顶部!</string>
@@ -129,8 +129,8 @@
 	<string name="msg_accounts_delete_failed">删除失败</string>
 	<string name="msg_accounts_set_successful">设置成功</string>
 	<string name="msg_accounts_set_failed">设置失败</string>
-	<string name="label_passport_username">YiBo通行证</string>
-	<string name="hint_passport_usage">用于同步帐号和分组数据</string>
+	<string name="label_passport_username">社区维护版</string>
+	<string name="hint_passport_usage">免费开放自定义尾巴</string>
 	<string name="label_passport_points">积分: %1$d, 头衔: %2$s</string>
 	<string name="btn_passport_login">登　录</string>
 	<string name="btn_passport_logout">注　销</string>
@@ -152,8 +152,8 @@
 	<string name="hint_accounts_auth_basic_password">密码</string>
 	<string name="msg_accounts_add_spSelect">请选择微博平台</string>
 	<string name="msg_accounts_add_already_exist">帐号已存在</string>
-	<string name="hint_accounts_oauth_intro">OAuth认证是一种比Basic认证更安全的认证方式，用户名和密码仅用于从相应微博平台获取您对YiBo的授权信息。 </string>
-    <string name="hint_accounts_oauth_intro_tencent">请点击\"开始授权\"按钮，在打开的官方授权页面上登录并授权YiBo访问您的帐户，授权完成后YiBo将自动完成帐号添加操作。</string>
+	<string name="hint_accounts_oauth_intro">OAuth认证是一种比Basic认证更安全的认证方式，用户名和密码仅用于从相应微博平台获取您对yibo的授权信息。 </string>
+    <string name="hint_accounts_oauth_intro_tencent">请点击\"开始授权\"按钮，在打开的官方授权页面上登录并授权yibo访问您的帐户，授权完成后yibo将自动完成帐号添加操作。</string>
     <string name="hint_accounts_sns">说明: 此平台目前仅支持同步发送消息。</string>
     <string name="hint_sp_prompt">请选择微博平台</string>
     <string name="msg_retrieving_request_token">处理中，请稍候...</string>
@@ -172,7 +172,7 @@
     <string name="hint_accounts_add_proxy_rest">API代理Url地址</string>
     <string name="label_accounts_add_proxy_search">Search API</string>
     <string name="hint_accounts_add_proxy_search">http://search.example.com/</string>
-
+     
 	<string name="hint_passport_login_username">用户名</string>
 	<string name="hint_passport_login_password">密码</string>
 	<string name="hint_passport_register_username">用户名，4～20位字母数字组合</string>
@@ -194,6 +194,13 @@
 	<string name="msg_accounts_operation_unsupported">该SNS帐号暂时只支持同步状态和相册功能</string>
 	<string name="msg_accounts_authorization_expired">授权已过期</string>
 
+	<string name="title_add_config_app">添加自定义尾巴</string>
+	<string name="hint_config_app_prompt">请选择尾巴</string>
+	<string name="hint_add_config_app_name">申请的应用名称</string>
+	<string name="hint_add_config_app_key">app key</string>
+	<string name="hint_add_config_app_secret">app secret</string>
+	<string name="hint_add_config_callback_url">oauth 2的回调url地址</string>	
+	
     <!-- Direct Message -->
     <string name="title_edit_direct_message">写私信</string>
     <string name="label_message_receiver">收信人:</string>
@@ -331,7 +338,7 @@
     <string name="label_blog_retweet_retweet_count">原文转发(%1$d)</string>
     <string name="label_blog_retweet_comment_count">原文评论(%1$d)</string>
     <string name="msg_big_image_loading">图片加载中...</string>
-    <string name="msg_extra_subject">通过YiBo微博分享微博信息</string>
+    <string name="msg_extra_subject">通过yibo微博分享微博信息</string>
     <string name="msg_extra_simple_text">%1$s 转发[%2$s]</string>
     <string name="msg_extra_rich_text">%1$s \n-----------------\n转发[%2$s]</string>
     <string name="msg_extra_image">\n附加图片：%1$s</string>
@@ -374,7 +381,7 @@
     <string name="msg_comment_success">评论成功!</string>
     <string name="msg_comment_failed">评论失败，请重新发送!</string>
     <string name="msg_status_success">微博更新成功！</string>
-    <string name="hint_feedback_identify">#YiBo.Android版##%1$s##%2$s# \@%3$s</string>
+    <string name="hint_feedback_identify">#YiBo微博##%1$s##%2$s# \@%3$s</string>
     <string name="menu_recomment">回复评论</string>
     <string name="menu_personal_info">查看用户资料</string>
     <string name="hint_recomment">回复\@%1$s: </string>
@@ -493,7 +500,7 @@
 	<string name="hint_setting_updates_disabled">已关闭自动更新</string>
 
 	<string name="label_setting_show_status_icon">通知栏图标</string>
-    <string name="hint_setting_show_status_icon">程序后台运行时显示状态图标,方便快速开启YiBo</string>
+    <string name="hint_setting_show_status_icon">程序后台运行时显示状态图标,方便快速开启yibo</string>
 
 	<string name="label_setting_update_interval">更新间隔</string>
 	<string name="title_dialog_setting_update_interval">更新间隔</string>
@@ -519,11 +526,11 @@
 	<string name="label_setting_notification_ringtone">铃声提醒</string>
 	<string name="label_setting_notification_led">LED灯闪烁提醒</string>
 
-	<string name="label_setting_about">关于YiBo</string>
+	<string name="label_setting_about">关于yibo</string>
 
 	<!-- About -->
 	<string name="defaultVersion">2.0.1</string>
-	<string name="about">YiBo微博客户端 v%1$s \nEmail: dev123.net@gmail.com \n网址: http://www.dev123.net \nCopyright © 2010-2011 \n敏升工作室  版权所有</string>
+	<string name="about">yibo微博客户端 v%1$s \nEmail: dev123.net@gmail.com \n网址: https://github.com/cattong/YiBo \n github开源社区版 </string>
 
 	<!-- App common -->
 	<string name="title_dialog_net_setting">连接失败</string>
