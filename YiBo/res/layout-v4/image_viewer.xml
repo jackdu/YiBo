@@ -12,7 +12,7 @@
 		android:layout_height="fill_parent"
 		android:orientation="vertical"
 		android:layout_weight="1">
-		<net.dev123.yibo.widget.TouchImageViewV4
+		<com.shejiaomao.widget.TouchImageViewV4
 			android:id="@+id/ivImageViewer"
 		    android:layout_width="fill_parent"
 			android:layout_height="fill_parent"

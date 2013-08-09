@@ -51,7 +51,7 @@
     		</TextView>
     	</LinearLayout>
     
-    	<net.dev123.yibo.widget.RichTextView 
+    	<com.shejiaomao.widget.RichTextView 
     	    android:id="@+id/tvText"
     	    android:hint="@string/label_loading"
     		android:layout_width="fill_parent"
@@ -60,10 +60,10 @@
     		android:linksClickable="false"
     		android:textColorLink="@color/selector_text_link"
     		style="@style/list_comment_text">
-    	</net.dev123.yibo.widget.RichTextView>
+    	</com.shejiaomao.widget.RichTextView>
     	
           
-    	<net.dev123.yibo.widget.RichTextView 
+    	<com.shejiaomao.widget.RichTextView 
     	    android:id="@+id/tvReplyText"
     	    android:hint="@string/label_loading"
     		android:layout_width="fill_parent"
@@ -73,7 +73,7 @@
     		android:ellipsize="end"
     		style="@style/list_comment_quote"
     		android:linksClickable="false">
-    	</net.dev123.yibo.widget.RichTextView>
+    	</com.shejiaomao.widget.RichTextView>
     </LinearLayout>
 
 </LinearLayout>

@@ -39,7 +39,7 @@
     		</TextView>
     	</LinearLayout>
     
-    	<net.dev123.yibo.widget.RichTextView android:id="@+id/tvMessageText"
+    	<com.shejiaomao.widget.RichTextView android:id="@+id/tvMessageText"
     	    android:hint="@string/label_loading"
     	    android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
     		android:linksClickable="false"
     		android:textColorLink="@color/selector_text_link"
     		style="@style/list_direct_message_text">
-    	</net.dev123.yibo.widget.RichTextView>
+    	</com.shejiaomao.widget.RichTextView>
     		
     </LinearLayout>
   

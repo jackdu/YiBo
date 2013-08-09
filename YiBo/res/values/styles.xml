@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- style -->
     <style name="panel_background">
         <item name="android:background">@drawable/shape_panel_background</item>
     </style>
     <!-- 通用样式 -->
-    <style name="content_text">
+    <style name="content">
         <item name="android:textSize">@dimen/content</item>
         <item name="android:textColor">@color/content</item>
     </style>

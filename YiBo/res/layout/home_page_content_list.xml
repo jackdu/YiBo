@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:layout_weight="1"
     android:background="@drawable/bg_header_corner_base">  
-    <net.dev123.yibo.widget.PullToRefreshListView 
+    <com.shejiaomao.widget.PullToRefreshListView 
 	    android:id="@+id/lvMicroBlog"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent" 
@@ -14,7 +14,7 @@
 	    android:fastScrollEnabled="true"
 	    android:scrollingCache="true"
 	    android:smoothScrollbar="true">
-    </net.dev123.yibo.widget.PullToRefreshListView>
+    </com.shejiaomao.widget.PullToRefreshListView>
 
 	<include layout="@layout/list_item_loading"/>
 </LinearLayout>

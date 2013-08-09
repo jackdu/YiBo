@@ -16,26 +16,26 @@
 		android:fillViewport="true" 
 		android:background="@drawable/bg_header_corner_base">
 
-		<LinearLayout
+	   <LinearLayout
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:padding="8sp"
+			android:padding="8dp"
 			android:orientation="vertical" >
 			<Spinner
 				android:id="@+id/spServiceProvider"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
-				android:padding="2sp"
+				android:padding="2dp"
 				android:drawSelectorOnTop="true"
 				android:prompt="@string/hint_sp_prompt"
 				android:background="@drawable/selector_btn_dropdown" />
 
 			<LinearLayout
-				android:id="@+id/llLoginForm"
+				android:id="@+id/llXAuthForm"
 				android:orientation="vertical"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
-				android:layout_marginTop="10sp" >
+				android:layout_marginTop="10dp" >
 				<EditText
 					android:id="@+id/etUsername"
 					android:layout_width="fill_parent"
@@ -84,12 +84,13 @@
 					android:textSize="18sp"
 					style="@style/edittext"/>
 			</LinearLayout>
+			
 			<LinearLayout 
 			    android:id="@+id/llOAuthIntro"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
-				android:layout_marginTop="8sp"
-				android:padding="8sp"
+				android:layout_marginTop="8dp"
+				android:padding="8dp"
 				android:orientation="vertical"
 				android:background="@drawable/bg_frame_normal"
 				android:visibility="gone">
@@ -102,20 +103,6 @@
 					android:textSize="15sp">
 				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/llAuthorizeForm"
-				android:orientation="vertical"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginTop="8sp"
-			 	android:visibility="gone">
-				<Button android:id="@+id/btnAuthorize"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:gravity="center"
-					android:text="@string/btn_accounts_authorize"
-					style="@style/btn_action_positive">
-				</Button>
-			</LinearLayout>
 			<CheckBox
 				android:id="@+id/cbUseApiProxy"
 				android:layout_width="wrap_content"
@@ -123,53 +110,27 @@
 				android:text="@string/label_accounts_add_use_proxy"
 				style="@style/checkbox"
 				android:visibility="gone" />
-			<CheckBox android:id="@+id/chkDefault"
+			<CheckBox android:id="@+id/cbDefault"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/label_accounts_add_as_default"
 				style="@style/checkbox" />
-			<CheckBox android:id="@+id/chkFollowOffical"
+			<CheckBox android:id="@+id/cbFollowOffical"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:checked="true"
 				android:text="@string/label_accounts_add_follow_official"
 				style="@style/checkbox" />
 
-			<LinearLayout android:id="@+id/llAppKey"
-				android:orientation="vertical"
+
+			<Spinner
+				android:id="@+id/spConfigApp"
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
-				android:layout_marginTop="16sp"
-			 	android:visibility="gone">
-				<CheckBox
-					android:id="@+id/cbUseCustomKey"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:text="@string/label_accounts_add_use_custom_key"
-					style="@style/checkbox" />
-				<Spinner
-					android:id="@+id/spAppKey"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:padding="2sp"
-					android:drawSelectorOnTop="true"
-					android:background="@drawable/selector_btn_dropdown"
-					android:visibility="gone" />
-			</LinearLayout>
-			
-			<RelativeLayout
-				android:layout_height="fill_parent"
-				android:layout_width="fill_parent"
-				android:layout_weight="1" >
-				<TextView
-					android:id="@+id/spSlogan"
-					android:text="XXX"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					android:layout_alignParentBottom="true"
-					android:visibility="gone"
-					android:background="@drawable/bg_sp_slogan" />
-			</RelativeLayout>
+				android:padding="2dp"
+				android:drawSelectorOnTop="true"
+				android:prompt="@string/hint_config_app_prompt"
+				android:background="@drawable/selector_btn_dropdown"/>			
 		</LinearLayout>
 	</ScrollView>
 
@@ -178,33 +139,19 @@
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:layout_weight="0"
-		android:padding="8sp"
+		android:padding="8dp"
 		android:orientation="horizontal"
 		android:gravity="center"
 		android:background="@drawable/bg_footer_action">
 
 		<Button
-			android:id="@+id/btnLogin"
-			android:text="@string/btn_form_submit"
+			android:id="@+id/btnAuthorize"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="1"
-			android:layout_marginRight="4sp"
-			android:textColor="@color/selector_btn_action_positive"
-			android:textAppearance="@style/btn_action_positive"
-			android:background="@drawable/selector_btn_action_positive"
+			android:text="@string/btn_accounts_authorize"
+			style="@style/btn_action_positive"
 			android:enabled="false"/>
-
-		<Button
-			android:id="@+id/btnReset"
-			android:text="@string/btn_form_reset"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:layout_marginLeft="4sp"
-			android:textColor="@color/selector_btn_action_negative"
-			android:textAppearance="@style/btn_action_negative"
-			android:background="@drawable/selector_btn_action_negative"/>
 	</LinearLayout>
 
 </LinearLayout>

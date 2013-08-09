@@ -5,10 +5,10 @@
     <item name="account_create">
         CREATE TABLE IF NOT EXISTS [Account] (
             [Account_ID]             INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-            [Auth_Token]             TEXT NOT NULL,
-            [Auth_Secret]            TEXT NOT NULL,
+            [Access_Token]           TEXT NOT NULL,
+            [Access_Secret]          TEXT,
             [Auth_Version]           INTEGER NOT NULL,
-            [Token_Expires_At]       DATETIME,
+            [Token_Expired_At]       DATETIME,
             [Token_Scopes]           TEXT,
             [User_ID]                TEXT NOT NULL,
             [Screen_Name]            TEXT NOT NULL,
@@ -136,7 +136,8 @@
 		    [App_Secret]        TEXT NOT NULL,
 		    [Auth_Version]      INT NOT NULL,
 		    [Auth_Flow]         INT NOT NULL,
-		    [Service_Provider]  INT NOT NULL
+		    [Service_Provider]  INT NOT NULL,
+		    [Callback_Url]      TEXT NULL
         );
     </item>
     <item name="task_create">
@@ -217,6 +218,9 @@
     </item>
     <item>
         DROP TABLE IF EXISTS [Config_App];
+    </item>
+    <item>
+        DROP TABLE IF EXISTS [Task];
     </item>
   </string-array>
   <string-array name="db_data_clean_sql">

@@ -7,7 +7,7 @@
 
     <include layout="@layout/include_secondary_header_base"/>
 
-    <include layout="@layout/include_personal_info_profile_header"/>
+    <include layout="@layout/include_profile_header"/>
 
 	<ScrollView
 	    android:id="@+id/llContentPanel"
